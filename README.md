@@ -10,4 +10,4 @@ CONTENIDO - Puerto Gaitán
  * Precio Viajes
  * Ubicación Geográfica
 
- * <AUTOR> Julián Andrés Morales Cubides 
+   AUTOR :  Julián Andrés Morales Cubides 
