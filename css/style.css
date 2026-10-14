@@ -1,0 +1,70 @@
+/* ===== GENERAL ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ===== NAVBAR ===== */
+.navbar-brand {
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+  color: #ffc107 !important;
+}
+
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* ===== PORTADA ===== */
+.bg-success h1 {
+  font-size: 2.5rem;
+}
+
+/* ===== CARRUSEL ===== */
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  transition: color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: #ffc107 !important;  /* cambia a amarillo */
+  transform: scale(1.2);       /* se agranda un poco */
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+  .bg-success h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel img {
+    height: 250px;
+  }
+
+  footer a {
+    font-size: 1.5rem;
+  }
+}
